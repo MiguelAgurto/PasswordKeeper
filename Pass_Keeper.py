@@ -33,7 +33,7 @@ def create_account():
     """"
         First check if there is an account, in case there is one already with the same username
         print "There is already an account with the same username".
-        Otherwise create a new account.
+        Otherwise create a new account
     """
     username = username_input.get()
     password = password_input.get()
